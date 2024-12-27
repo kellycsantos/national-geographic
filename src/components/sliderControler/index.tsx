@@ -6,7 +6,7 @@ import play from '../../assets/play_arrow.svg'
 
 export default function Slider() {
     let [active, setActive] = useState(0);
-    const intervalReferencia = useRef<NodeJs.Timeout | null>(null);
+    const intervalReferencia = useRef<any | null>(null);
 
 
 
